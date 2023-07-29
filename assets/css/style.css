@@ -1,0 +1,114 @@
+body{
+padding-top: 1%;
+    background: rgb(28,50,106) !important;
+    background: radial-gradient(circle, rgba(28,50,106,1) 1%, rgba(18,32,68,1) 87%) !important;
+}
+h1{
+    color: white !important;
+    font-size: 16pt !important;
+}
+h5{
+    color: white !important;
+    font-size: 12pt !important;
+}
+h4{
+    color: white !important;
+    font-size: 14pt !important;
+}
+p{
+    color: white;
+    text-align: justify;
+    font-size: 12pt !important;
+}
+
+#perfil{
+    border:3px solid #223156;
+    border-radius: 50%;
+}
+
+#redes1{
+    display: none;
+}
+.contenido{
+    font-size: 10pt !important;
+}
+a{
+    color: #cccccc !important;
+    text-decoration: none ;
+}
+
+a:hover{
+    color: white !important;
+}
+
+.fix{
+    position: fixed;
+}
+
+.sombreado{
+    padding: 5%;
+}
+
+.sombreado div:hover{
+    border-top: 1px solid #223156;
+    border-radius: 4%;
+    background-color: #17274b;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.centrar-cartas{
+    margin: auto;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:993px){
+    
+    p{
+        font-size: 12pt !important;
+
+    }
+    
+   h1{
+    font-size: 14pt !important;
+
+   }
+
+   .fix{
+        position: sticky
+   }
+
+   nav{
+    display: none;
+   }
+
+   #ocultar{
+    display: none;
+   }
+
+   #redes1{
+    display: block;
+   }
+}
+
+@media (max-width:993px){
+    
+ 
+}
+
+@media (max-width:769px){
+    
+    p{
+        font-size: 10pt !important;
+    }
+    
+   h1{
+    font-size: 14pt !important;
+   }
+}
